@@ -94,12 +94,11 @@ body {
 .site-header--open .site-header__toggler {
   background-image: url("../img/site-header-exit.svg");
 }
+
 .site-header__site-nav {
   display: none;
 }
-.site-nav {
 
-}
 .site-nav__list {
   display: flex;
   align-items: center;
@@ -107,6 +106,7 @@ body {
   padding: 0;
   margin: 0;
 }
+
 .site-nav__item {
   margin-right: 43px;
 }
@@ -167,7 +167,7 @@ body {
 }
 
 .get-heading{
-  font-family: 'Ibarra Real Nova', serif;
+  font-family: "Ibarra Real Nova";
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -213,7 +213,7 @@ body {
   margin-top: 24px;
 }
 
-.get-item:not(:last-child){
+.get-item:not(:last-child) {
   margin-right: 15px;
 }
 
@@ -258,7 +258,7 @@ body {
   background-color: #d8d8d8;
   border: none;
   padding: 15px 20px 15px 16px;
-  color: black;
+  color: #000;
 }
 
 .input-text{
@@ -359,6 +359,7 @@ body {
   margin: 0;
   list-style: none;
 }
+
 .site-footer__social-item {
   margin-left: 15px;
 }
@@ -408,6 +409,7 @@ body {
 
   .site-footer__list {
     display: flex;
+    margin-bottom: 10px;
   }
 
   .site-footer__item {
@@ -437,6 +439,7 @@ body {
   /* FOOTER */
 
   .site-footer__list {
-    margin-right: 500px;
+    margin-right: 385px;
+    margin-bottom: 10px;
   }
 }

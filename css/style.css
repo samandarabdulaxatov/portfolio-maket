@@ -94,12 +94,11 @@ body {
 .site-header--open .site-header__toggler {
   background-image: url("../img/site-header-exit.svg");
 }
+
 .site-header__site-nav {
   display: none;
 }
-.site-nav {
 
-}
 .site-nav__list {
   display: flex;
   align-items: center;
@@ -107,6 +106,7 @@ body {
   padding: 0;
   margin: 0;
 }
+
 .site-nav__item {
   margin-right: 43px;
 }
@@ -134,9 +134,6 @@ body {
 
 /* HERO */
 
-.site-main {
-
-}
 .site-hero {
   margin-bottom: 70px;
 }
@@ -206,9 +203,11 @@ body {
 .about-img-mobile {
   display: block;
 }
+
 .about-img-tablet {
   display: none;
 }
+
 .about-img-desktop {
   display: none;
 }
@@ -224,6 +223,7 @@ body {
   opacity: 0.15;
   margin-bottom: 32px;
 }
+
 .site-about__content::after {
   position: absolute;
   width: 311px;
@@ -309,7 +309,6 @@ body {
   margin-bottom: 40px;
 }
 
-
 .site-features__link {
   font-family: "Public Sans";
   padding: 17px 34px;
@@ -384,6 +383,7 @@ body {
   margin: 0;
   list-style: none;
 }
+
 .site-footer__social-item {
   margin-left: 15px;
 }
@@ -421,6 +421,7 @@ body {
   .site-hero__content {
     position: relative;
   }
+
   .site-hero__content {
     position: absolute;
     background-color: #FFFFFF;
@@ -445,14 +446,16 @@ body {
   .about-img-tablet {
     display: block;
   }
+
   .about-img-mobile {
     display: none;
   }
+
   .about-img-desktop {
     display: none;
   }
 
-  .about__content::before {
+  .site-about__content::before {
     position: absolute;
     width: 311px;
     height: 1;
@@ -522,6 +525,8 @@ body {
 
   .site-footer__list {
     display: flex;
+    margin-bottom: 10px;
+
   }
 
   .site-footer__item {
@@ -535,6 +540,7 @@ body {
   .site-hero__content {
     position: relative;
   }
+
   .site-hero__content {
     position: absolute;
     background-color: #FFFFFF;
@@ -556,6 +562,7 @@ body {
   .hero-img-tablet {
     display: none;
   }
+
   .hero-img-mobile {
     display: none;
   }
@@ -565,9 +572,11 @@ body {
   .about-img-desktop {
     display: block;
   }
+
   .about-img-tablet {
     display: none;
   }
+
   .about-img-mobile {
     display: none;
   }
@@ -589,7 +598,8 @@ body {
   /* FOOTER */
 
   .site-footer__list {
-    margin-right: 500px;
+    margin-right: 385px;
+    margin-bottom: 10px;
   }
 
 }
